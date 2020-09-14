@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D187870F250F507600DAC3CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D187870E250F507600DAC3CA /* AppDelegate.swift */; };
+		D1878711250F507600DAC3CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1878710250F507600DAC3CA /* SceneDelegate.swift */; };
+		D1878713250F507600DAC3CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1878712250F507600DAC3CA /* ViewController.swift */; };
+		D1878716250F507600DAC3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1878714250F507600DAC3CA /* Main.storyboard */; };
+		D1878718250F507700DAC3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1878717250F507700DAC3CA /* Assets.xcassets */; };
+		D187871B250F507700DAC3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1878719250F507700DAC3CA /* LaunchScreen.storyboard */; };
+		D1878726250F507700DAC3CA /* kafka_l4s_githubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1878725250F507700DAC3CA /* kafka_l4s_githubTests.swift */; };
+		D1878731250F507700DAC3CA /* kafka_l4s_githubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1878730250F507700DAC3CA /* kafka_l4s_githubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1878722250F507700DAC3CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1878703250F507600DAC3CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D187870A250F507600DAC3CA;
+			remoteInfo = "kafka-l4s-github";
+		};
+		D187872D250F507700DAC3CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1878703250F507600DAC3CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D187870A250F507600DAC3CA;
+			remoteInfo = "kafka-l4s-github";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D187870B250F507600DAC3CA /* kafka-l4s-github.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kafka-l4s-github.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D187870E250F507600DAC3CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1878710250F507600DAC3CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D1878712250F507600DAC3CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1878715250F507600DAC3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1878717250F507700DAC3CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D187871A250F507700DAC3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D187871C250F507700DAC3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1878721250F507700DAC3CA /* kafka-l4s-githubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kafka-l4s-githubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1878725250F507700DAC3CA /* kafka_l4s_githubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kafka_l4s_githubTests.swift; sourceTree = "<group>"; };
+		D1878727250F507700DAC3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D187872C250F507700DAC3CA /* kafka-l4s-githubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kafka-l4s-githubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1878730250F507700DAC3CA /* kafka_l4s_githubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kafka_l4s_githubUITests.swift; sourceTree = "<group>"; };
+		D1878732250F507700DAC3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1878708250F507600DAC3CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D187871E250F507700DAC3CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1878729250F507700DAC3CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1878702250F507600DAC3CA = {
+			isa = PBXGroup;
+			children = (
+				D187870D250F507600DAC3CA /* kafka-l4s-github */,
+				D1878724250F507700DAC3CA /* kafka-l4s-githubTests */,
+				D187872F250F507700DAC3CA /* kafka-l4s-githubUITests */,
+				D187870C250F507600DAC3CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D187870C250F507600DAC3CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D187870B250F507600DAC3CA /* kafka-l4s-github.app */,
+				D1878721250F507700DAC3CA /* kafka-l4s-githubTests.xctest */,
+				D187872C250F507700DAC3CA /* kafka-l4s-githubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D187870D250F507600DAC3CA /* kafka-l4s-github */ = {
+			isa = PBXGroup;
+			children = (
+				D187870E250F507600DAC3CA /* AppDelegate.swift */,
+				D1878710250F507600DAC3CA /* SceneDelegate.swift */,
+				D1878712250F507600DAC3CA /* ViewController.swift */,
+				D1878714250F507600DAC3CA /* Main.storyboard */,
+				D1878717250F507700DAC3CA /* Assets.xcassets */,
+				D1878719250F507700DAC3CA /* LaunchScreen.storyboard */,
+				D187871C250F507700DAC3CA /* Info.plist */,
+			);
+			path = "kafka-l4s-github";
+			sourceTree = "<group>";
+		};
+		D1878724250F507700DAC3CA /* kafka-l4s-githubTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1878725250F507700DAC3CA /* kafka_l4s_githubTests.swift */,
+				D1878727250F507700DAC3CA /* Info.plist */,
+			);
+			path = "kafka-l4s-githubTests";
+			sourceTree = "<group>";
+		};
+		D187872F250F507700DAC3CA /* kafka-l4s-githubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1878730250F507700DAC3CA /* kafka_l4s_githubUITests.swift */,
+				D1878732250F507700DAC3CA /* Info.plist */,
+			);
+			path = "kafka-l4s-githubUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D187870A250F507600DAC3CA /* kafka-l4s-github */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1878735250F507700DAC3CA /* Build configuration list for PBXNativeTarget "kafka-l4s-github" */;
+			buildPhases = (
+				D1878707250F507600DAC3CA /* Sources */,
+				D1878708250F507600DAC3CA /* Frameworks */,
+				D1878709250F507600DAC3CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kafka-l4s-github";
+			productName = "kafka-l4s-github";
+			productReference = D187870B250F507600DAC3CA /* kafka-l4s-github.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1878720250F507700DAC3CA /* kafka-l4s-githubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1878738250F507700DAC3CA /* Build configuration list for PBXNativeTarget "kafka-l4s-githubTests" */;
+			buildPhases = (
+				D187871D250F507700DAC3CA /* Sources */,
+				D187871E250F507700DAC3CA /* Frameworks */,
+				D187871F250F507700DAC3CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1878723250F507700DAC3CA /* PBXTargetDependency */,
+			);
+			name = "kafka-l4s-githubTests";
+			productName = "kafka-l4s-githubTests";
+			productReference = D1878721250F507700DAC3CA /* kafka-l4s-githubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D187872B250F507700DAC3CA /* kafka-l4s-githubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D187873B250F507700DAC3CA /* Build configuration list for PBXNativeTarget "kafka-l4s-githubUITests" */;
+			buildPhases = (
+				D1878728250F507700DAC3CA /* Sources */,
+				D1878729250F507700DAC3CA /* Frameworks */,
+				D187872A250F507700DAC3CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D187872E250F507700DAC3CA /* PBXTargetDependency */,
+			);
+			name = "kafka-l4s-githubUITests";
+			productName = "kafka-l4s-githubUITests";
+			productReference = D187872C250F507700DAC3CA /* kafka-l4s-githubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1878703250F507600DAC3CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Yoshinori Shibahara";
+				TargetAttributes = {
+					D187870A250F507600DAC3CA = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					D1878720250F507700DAC3CA = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D187870A250F507600DAC3CA;
+					};
+					D187872B250F507700DAC3CA = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D187870A250F507600DAC3CA;
+					};
+				};
+			};
+			buildConfigurationList = D1878706250F507600DAC3CA /* Build configuration list for PBXProject "kafka-l4s-github" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1878702250F507600DAC3CA;
+			productRefGroup = D187870C250F507600DAC3CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D187870A250F507600DAC3CA /* kafka-l4s-github */,
+				D1878720250F507700DAC3CA /* kafka-l4s-githubTests */,
+				D187872B250F507700DAC3CA /* kafka-l4s-githubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1878709250F507600DAC3CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D187871B250F507700DAC3CA /* LaunchScreen.storyboard in Resources */,
+				D1878718250F507700DAC3CA /* Assets.xcassets in Resources */,
+				D1878716250F507600DAC3CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D187871F250F507700DAC3CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D187872A250F507700DAC3CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1878707250F507600DAC3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1878713250F507600DAC3CA /* ViewController.swift in Sources */,
+				D187870F250F507600DAC3CA /* AppDelegate.swift in Sources */,
+				D1878711250F507600DAC3CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D187871D250F507700DAC3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1878726250F507700DAC3CA /* kafka_l4s_githubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1878728250F507700DAC3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1878731250F507700DAC3CA /* kafka_l4s_githubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1878723250F507700DAC3CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D187870A250F507600DAC3CA /* kafka-l4s-github */;
+			targetProxy = D1878722250F507700DAC3CA /* PBXContainerItemProxy */;
+		};
+		D187872E250F507700DAC3CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D187870A250F507600DAC3CA /* kafka-l4s-github */;
+			targetProxy = D187872D250F507700DAC3CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1878714250F507600DAC3CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1878715250F507600DAC3CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1878719250F507700DAC3CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D187871A250F507700DAC3CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1878733250F507700DAC3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1878734250F507700DAC3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1878736250F507700DAC3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U939MWC6G;
+				INFOPLIST_FILE = "kafka-l4s-github/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shibahara107.kafka-l4s-github";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1878737250F507700DAC3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U939MWC6G;
+				INFOPLIST_FILE = "kafka-l4s-github/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shibahara107.kafka-l4s-github";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1878739250F507700DAC3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U939MWC6G;
+				INFOPLIST_FILE = "kafka-l4s-githubTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shibahara107.kafka-l4s-githubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kafka-l4s-github.app/kafka-l4s-github";
+			};
+			name = Debug;
+		};
+		D187873A250F507700DAC3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U939MWC6G;
+				INFOPLIST_FILE = "kafka-l4s-githubTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shibahara107.kafka-l4s-githubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kafka-l4s-github.app/kafka-l4s-github";
+			};
+			name = Release;
+		};
+		D187873C250F507700DAC3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U939MWC6G;
+				INFOPLIST_FILE = "kafka-l4s-githubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shibahara107.kafka-l4s-githubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kafka-l4s-github";
+			};
+			name = Debug;
+		};
+		D187873D250F507700DAC3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U939MWC6G;
+				INFOPLIST_FILE = "kafka-l4s-githubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shibahara107.kafka-l4s-githubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kafka-l4s-github";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1878706250F507600DAC3CA /* Build configuration list for PBXProject "kafka-l4s-github" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1878733250F507700DAC3CA /* Debug */,
+				D1878734250F507700DAC3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1878735250F507700DAC3CA /* Build configuration list for PBXNativeTarget "kafka-l4s-github" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1878736250F507700DAC3CA /* Debug */,
+				D1878737250F507700DAC3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1878738250F507700DAC3CA /* Build configuration list for PBXNativeTarget "kafka-l4s-githubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1878739250F507700DAC3CA /* Debug */,
+				D187873A250F507700DAC3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D187873B250F507700DAC3CA /* Build configuration list for PBXNativeTarget "kafka-l4s-githubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D187873C250F507700DAC3CA /* Debug */,
+				D187873D250F507700DAC3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1878703250F507600DAC3CA /* Project object */;
+}
